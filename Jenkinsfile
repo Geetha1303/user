@@ -1,8 +1,9 @@
-@Library('roboshop')
-roboshop {
-  COMPONENT          :'user',
-  PROJECT_NAME       :"Roboshop",
-  SLAVE_LABEL        :"NODEJS",
-  SKIP_NEXUS_UPLOAD  :false,
-  APP_TYPE           :"NODEJS"
-  }
+@Library('roboshop') _
+
+roboshop (
+       COMPONENT          : 'user',
+       PROJECT_NAME       : "RoboShop",
+       SLAVE_LABEL        : "NODEJS",
+       SKIP_NEXUS_UPLOAD  : false,
+       APP_TYPE           : "NODEJS"
+)
